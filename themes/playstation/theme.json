@@ -1,0 +1,63 @@
+{
+  "api": 1,
+  "id": "playstation",
+  "name": "PlayStation",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The 32-bit grey console, or the black of its boot screen, with the four button shapes' colours. Chakra Petch type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "console": {
+      "--fs-bg": "#c2c2c4",
+      "--fs-bg-2": "#d8d8da",
+      "--fs-panel": "#e2e2e4",
+      "--fs-text": "#1d1d22",
+      "--fs-muted": "#4a4a52",
+      "--fs-accent": "#2a4fa0",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#1d1d2226",
+      "--fs-focus": "#2a4fa0",
+      "--fs-shadow": "#1d1d2240",
+      "--fs-radius": "0.6vh",
+      "--fs-font": "\"Chakra Petch\", system-ui, sans-serif",
+      "--fs-title-font": "\"Chakra Petch\", system-ui, sans-serif"
+    },
+    "boot": {
+      "--fs-bg": "#050506",
+      "--fs-bg-2": "#1b1b22",
+      "--fs-panel": "#121216",
+      "--fs-text": "#f0f0f2",
+      "--fs-muted": "#a4a4ae",
+      "--fs-accent": "#f3c033",
+      "--fs-accent-text": "#050506",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#f3c033",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.6vh",
+      "--fs-font": "\"Chakra Petch\", system-ui, sans-serif",
+      "--fs-title-font": "\"Chakra Petch\", system-ui, sans-serif"
+    }
+  },
+  "options": [
+    {
+      "key": "shapes",
+      "label": "Button colours",
+      "choices": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "api": 1,
+  "id": "playstation-2",
+  "name": "PlayStation 2",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The deep blue of the console's own menus and its blue light, or the silver of the slim one. Exo 2 type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "browser": {
+      "--fs-bg": "#020a24",
+      "--fs-bg-2": "#0b2a6e",
+      "--fs-panel": "#0a1a45",
+      "--fs-text": "#eaf1ff",
+      "--fs-muted": "#9fb2d9",
+      "--fs-accent": "#3d8bff",
+      "--fs-accent-text": "#020a24",
+      "--fs-line": "#3d8bff33",
+      "--fs-focus": "#6fb0ff",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.8vh",
+      "--fs-font": "\"Exo 2\", system-ui, sans-serif",
+      "--fs-title-font": "\"Exo 2\", system-ui, sans-serif"
+    },
+    "silver": {
+      "--fs-bg": "#b8bcc4",
+      "--fs-bg-2": "#d4d7dd",
+      "--fs-panel": "#dfe2e7",
+      "--fs-text": "#121722",
+      "--fs-muted": "#444b5a",
+      "--fs-accent": "#1f4fbf",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#12172226",
+      "--fs-focus": "#1f4fbf",
+      "--fs-shadow": "#12172240",
+      "--fs-radius": "0.8vh",
+      "--fs-font": "\"Exo 2\", system-ui, sans-serif",
+      "--fs-title-font": "\"Exo 2\", system-ui, sans-serif"
+    }
+  },
+  "options": [
+    {
+      "key": "glow",
+      "label": "Blue glow",
+      "choices": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ]
+    }
+  ]
+}

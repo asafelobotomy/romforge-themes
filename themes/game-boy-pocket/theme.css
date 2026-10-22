@@ -118,8 +118,8 @@
 [data-fs-title] {
   font-weight: 700;
 }
-[data-fs-card],
-[data-fs-row] {
+:scope [data-fs-card],
+:scope [data-fs-row] {
   border: 0.3vh solid var(--fs-line);
   box-shadow: 0.5vh 0.5vh 0 var(--fs-shadow);
 }

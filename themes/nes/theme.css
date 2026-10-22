@@ -108,13 +108,13 @@
   font-size-adjust: 0.48;
   line-height: 1.5;
 }
-[data-fs-card],
-[data-fs-row] {
+:scope [data-fs-card],
+:scope [data-fs-row] {
   border: 0.3vh solid var(--fs-line);
   box-shadow: 0.6vh 0.6vh 0 var(--fs-shadow);
 }
-[data-fs-card][data-fs-selected],
-[data-fs-row][data-fs-selected] {
+:scope [data-fs-card][data-fs-selected],
+:scope [data-fs-row][data-fs-selected] {
   border-color: var(--fs-focus);
   box-shadow: 0.9vh 0.9vh 0 var(--fs-shadow);
 }

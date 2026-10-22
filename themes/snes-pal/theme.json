@@ -1,0 +1,63 @@
+{
+  "api": 1,
+  "id": "snes-pal",
+  "name": "SNES (UK)",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The UK and European Super Nintendo (and Japan's Super Famicom): light grey with the four coloured buttons; or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "pal": {
+      "--fs-bg": "#cfcfcf",
+      "--fs-bg-2": "#e4e4e4",
+      "--fs-panel": "#ececec",
+      "--fs-text": "#222222",
+      "--fs-muted": "#555555",
+      "--fs-accent": "#c8102e",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#22222226",
+      "--fs-focus": "#2f4fa3",
+      "--fs-shadow": "#22222233",
+      "--fs-radius": "1.6vh",
+      "--fs-font": "\"Pixelify Sans\", system-ui, sans-serif",
+      "--fs-title-font": "\"Pixelify Sans\", system-ui, sans-serif"
+    },
+    "night": {
+      "--fs-bg": "#1d1d21",
+      "--fs-bg-2": "#33333a",
+      "--fs-panel": "#28282d",
+      "--fs-text": "#efefef",
+      "--fs-muted": "#a9a9b0",
+      "--fs-accent": "#ff5a5f",
+      "--fs-accent-text": "#1d1d21",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#6f8fe0",
+      "--fs-shadow": "#00000066",
+      "--fs-radius": "1.6vh",
+      "--fs-font": "\"Pixelify Sans\", system-ui, sans-serif",
+      "--fs-title-font": "\"Pixelify Sans\", system-ui, sans-serif"
+    }
+  },
+  "options": [
+    {
+      "key": "buttons",
+      "label": "Button colours",
+      "choices": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ]
+    }
+  ]
+}

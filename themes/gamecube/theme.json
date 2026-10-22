@@ -1,0 +1,63 @@
+{
+  "api": 1,
+  "id": "gamecube",
+  "name": "GameCube",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The little cube's indigo, its spice orange or jet black, with rounded cards. Fredoka type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "indigo": {
+      "--fs-bg": "#2b2163",
+      "--fs-bg-2": "#4a3a9e",
+      "--fs-panel": "#362a7a",
+      "--fs-text": "#f3f0ff",
+      "--fs-muted": "#c0b6ec",
+      "--fs-accent": "#f39233",
+      "--fs-accent-text": "#2b2163",
+      "--fs-line": "#f3f0ff26",
+      "--fs-focus": "#f39233",
+      "--fs-shadow": "#00000066",
+      "--fs-radius": "2vh",
+      "--fs-font": "\"Fredoka\", system-ui, sans-serif",
+      "--fs-title-font": "\"Fredoka\", system-ui, sans-serif"
+    },
+    "spice": {
+      "--fs-bg": "#f08a24",
+      "--fs-bg-2": "#f6a352",
+      "--fs-panel": "#f6a352",
+      "--fs-text": "#2a1606",
+      "--fs-muted": "#4a2a0a",
+      "--fs-accent": "#2b2163",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#2a160633",
+      "--fs-focus": "#2b2163",
+      "--fs-shadow": "#2a160640",
+      "--fs-radius": "2vh",
+      "--fs-font": "\"Fredoka\", system-ui, sans-serif",
+      "--fs-title-font": "\"Fredoka\", system-ui, sans-serif"
+    },
+    "jet": {
+      "--fs-bg": "#111114",
+      "--fs-bg-2": "#26262c",
+      "--fs-panel": "#1c1c21",
+      "--fs-text": "#f1f1f3",
+      "--fs-muted": "#a7a7b0",
+      "--fs-accent": "#8f80ea",
+      "--fs-accent-text": "#111114",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#8f80ea",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "2vh",
+      "--fs-font": "\"Fredoka\", system-ui, sans-serif",
+      "--fs-title-font": "\"Fredoka\", system-ui, sans-serif"
+    }
+  },
+  "options": []
+}

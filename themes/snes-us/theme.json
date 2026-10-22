@@ -1,42 +1,29 @@
 {
   "api": 1,
-  "id": "snes",
-  "name": "SNES",
+  "id": "snes-us",
+  "name": "SNES (US)",
   "version": "1.0.0",
   "author": "romforge",
   "licence": "CC0-1.0 AND OFL-1.1",
   "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
-  "description": "The 16-bit console's soft greys and rounded corners: purple buttons (USA), four coloured ones (PAL), or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
+  "description": "The North American Super NES: a grey shell, purple and lavender buttons, rounded corners; or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
   "layout": "grid",
-  "layouts": ["list"],
+  "layouts": [
+    "list"
+  ],
   "fallback": "title",
   "schemes": {
     "usa": {
-      "--fs-bg": "#cdcbd5",
-      "--fs-bg-2": "#e3e1ea",
-      "--fs-panel": "#eae8f0",
+      "--fs-bg": "#c4bfd8",
+      "--fs-bg-2": "#dedaee",
+      "--fs-panel": "#ece9f6",
       "--fs-text": "#25223a",
-      "--fs-muted": "#58536e",
+      "--fs-muted": "#4a4560",
       "--fs-accent": "#4b3fa8",
       "--fs-accent-text": "#ffffff",
       "--fs-line": "#4b3fa833",
       "--fs-focus": "#4b3fa8",
       "--fs-shadow": "#25223a33",
-      "--fs-radius": "1.6vh",
-      "--fs-font": "\"Pixelify Sans\", system-ui, sans-serif",
-      "--fs-title-font": "\"Pixelify Sans\", system-ui, sans-serif"
-    },
-    "pal": {
-      "--fs-bg": "#cfcfcf",
-      "--fs-bg-2": "#e4e4e4",
-      "--fs-panel": "#ececec",
-      "--fs-text": "#222222",
-      "--fs-muted": "#555555",
-      "--fs-accent": "#c8102e",
-      "--fs-accent-text": "#ffffff",
-      "--fs-line": "#22222226",
-      "--fs-focus": "#2f4fa3",
-      "--fs-shadow": "#22222233",
       "--fs-radius": "1.6vh",
       "--fs-font": "\"Pixelify Sans\", system-ui, sans-serif",
       "--fs-title-font": "\"Pixelify Sans\", system-ui, sans-serif"
@@ -62,8 +49,14 @@
       "key": "buttons",
       "label": "Button colours",
       "choices": [
-        { "value": "on", "label": "On" },
-        { "value": "off", "label": "Off" }
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
       ]
     }
   ]

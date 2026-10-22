@@ -1,0 +1,78 @@
+{
+  "api": 1,
+  "id": "nintendo-64",
+  "name": "Nintendo 64",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "Charcoal, or the see-through Jungle Green and Grape, with the logo's four colours. Russo One type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "charcoal": {
+      "--fs-bg": "#1f1f21",
+      "--fs-bg-2": "#3a3a3e",
+      "--fs-panel": "#2a2a2d",
+      "--fs-text": "#f2f2f2",
+      "--fs-muted": "#a9a9ad",
+      "--fs-accent": "#e3242b",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#f6b30f",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.6vh",
+      "--fs-font": "\"Russo One\", system-ui, sans-serif",
+      "--fs-title-font": "\"Russo One\", system-ui, sans-serif"
+    },
+    "jungle-green": {
+      "--fs-bg": "#0f3b28",
+      "--fs-bg-2": "#175a3c",
+      "--fs-panel": "#154d34",
+      "--fs-text": "#effaf3",
+      "--fs-muted": "#a9d6bd",
+      "--fs-accent": "#f6b30f",
+      "--fs-accent-text": "#0f3b28",
+      "--fs-line": "#effaf326",
+      "--fs-focus": "#f6b30f",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.6vh",
+      "--fs-font": "\"Russo One\", system-ui, sans-serif",
+      "--fs-title-font": "\"Russo One\", system-ui, sans-serif"
+    },
+    "grape": {
+      "--fs-bg": "#2a1a45",
+      "--fs-bg-2": "#4f3485",
+      "--fs-panel": "#382460",
+      "--fs-text": "#f4efff",
+      "--fs-muted": "#c3b3e6",
+      "--fs-accent": "#f6b30f",
+      "--fs-accent-text": "#2a1a45",
+      "--fs-line": "#f4efff26",
+      "--fs-focus": "#f6b30f",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.6vh",
+      "--fs-font": "\"Russo One\", system-ui, sans-serif",
+      "--fs-title-font": "\"Russo One\", system-ui, sans-serif"
+    }
+  },
+  "options": [
+    {
+      "key": "logo",
+      "label": "Logo colours",
+      "choices": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ]
+    }
+  ]
+}

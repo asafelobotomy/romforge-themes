@@ -95,9 +95,7 @@
    FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
    OTHER DEALINGS IN THE FONT SOFTWARE.
 */
-/* SNES (CC0; the font is OFL, as above): the 16-bit console's
-   soft greys, rounded corners and pixel type, with its four button
-   colours as an option. */
+/* SNES (UK) (CC0; the font is OFL, as above): the UK and European console's light grey, its four button colours, rounded corners and pixel type. */
 @font-face {
   font-family: "Pixelify Sans";
   src: url(fonts/pixelify-sans-400.woff2) format("woff2");
@@ -120,13 +118,18 @@
 [data-fs-row] {
   box-shadow: 0 0.6vh 1.4vh var(--fs-shadow);
 }
-[data-fs-card][data-fs-selected],
-[data-fs-row][data-fs-selected] {
-  outline: 0.5vh solid var(--fs-focus);
-  outline-offset: 0.3vh;
+
+/* The console's colour on the big title and along each card's foot. */
+[data-fs-info] [data-fs-title] {
+  color: var(--fs-accent);
 }
-/* The four face buttons (Y, X, B, A) as a stripe under the platforms. */
+[data-fs-card],
+[data-fs-row] {
+  box-shadow: 0 0.5vh 0 var(--fs-accent), 0 0.6vh 1.4vh var(--fs-shadow);
+}
+
+/* The four face buttons (Y, X, B, A). */
 :scope[data-fs-opt-buttons="on"] [data-fs-carousel] {
   border-bottom: 0.6vh solid;
-  border-image: linear-gradient(90deg, #17913a 0 25%, #2f4fa3 25% 50%, #e8b021 50% 75%, #c8102e 75%) 1;
+  border-image: linear-gradient(90deg, #17913a 0% 25%, #2f4fa3 25% 50%, #e8b021 50% 75%, #c8102e 75% 100%) 1;
 }

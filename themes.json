@@ -24,18 +24,56 @@
         },
         {
           "path": "preview.png",
-          "size": 60920,
-          "sha256": "e7f8b4196ea56572886d76f69557d42d63b86abd3cac1564a571b0e69bb9ba97"
+          "size": 61273,
+          "sha256": "adfeea6b33c3d1ec509372d236e84337341c812611939d3ad0b74a4ddc14d712"
         },
         {
           "path": "theme.css",
-          "size": 6043,
-          "sha256": "28dc5dddddc4d9d8c67ff2b7d7fb1969b2f2c004df3f837763445f483164b478"
+          "size": 6057,
+          "sha256": "8fa1625eed2c5a01e5879014a92ceefbf41cde20f8a1aff304b17d63b937db1b"
         },
         {
           "path": "theme.json",
           "size": 1678,
           "sha256": "4eea0f9c07a59cfe49367d4029f09c10fbc7bd677a2f57a189f130cf74d86dd2"
+        }
+      ]
+    },
+    {
+      "id": "gamecube",
+      "name": "GameCube",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The little cube's indigo, its spice orange or jet black, with rounded cards. Fredoka type (OFL; its licence heads theme.css).",
+      "preview": "themes/gamecube/preview.png",
+      "files": [
+        {
+          "path": "fonts/fredoka-400.woff2",
+          "size": 16076,
+          "sha256": "9cf74f703532ef61311d6c6dd32a582b6e410727f5fce1dbf5570cbe6b023c2f"
+        },
+        {
+          "path": "fonts/fredoka-600.woff2",
+          "size": 16468,
+          "sha256": "b62f2898de150f019961f4884a49f83dcd2ce74375be5e0992c594ebb8f30294"
+        },
+        {
+          "path": "preview.png",
+          "size": 140584,
+          "sha256": "dc3609e0405d911a312baa618b5c0ea5946ed34a78b3d732c5e0464ec795cc53"
+        },
+        {
+          "path": "theme.css",
+          "size": 5408,
+          "sha256": "a3717c936664ecdfd4ad575bfede5f2a2990c0bf2dfe89d7fde920960ad33a5b"
+        },
+        {
+          "path": "theme.json",
+          "size": 1930,
+          "sha256": "be0df7cf247035beca759700e11ef6e69473411bbee63d0637a80a3c1f413549"
         }
       ]
     },
@@ -123,13 +161,13 @@
         },
         {
           "path": "preview.png",
-          "size": 59278,
-          "sha256": "7d90f6520e8c1e229952bc6f09b32aee4e47e23ca608f8f4e693d42ae704c098"
+          "size": 59824,
+          "sha256": "bb72c32f33ee83d0a31ba55504640a63c514cdb012d889e22a0c3c73d6686e9f"
         },
         {
           "path": "theme.css",
-          "size": 5835,
-          "sha256": "4eb9b47d5bd650580d94f673763965de1cb665f3acc1784e1105ebcb0666005b"
+          "size": 5863,
+          "sha256": "17bb0cdc1bc7bce76b0d3953a884da3d30bc507c346d87e4ba1f2110a0b25987"
         },
         {
           "path": "theme.json",
@@ -139,15 +177,124 @@
       ]
     },
     {
-      "id": "snes",
-      "name": "SNES",
+      "id": "nintendo-64",
+      "name": "Nintendo 64",
       "version": "1.0.0",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
       "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
-      "description": "The 16-bit console's soft greys and rounded corners: purple buttons (USA), four coloured ones (PAL), or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
-      "preview": "themes/snes/preview.png",
+      "description": "Charcoal, or the see-through Jungle Green and Grape, with the logo's four colours. Russo One type (OFL; its licence heads theme.css).",
+      "preview": "themes/nintendo-64/preview.png",
+      "files": [
+        {
+          "path": "fonts/russo-one-400.woff2",
+          "size": 7344,
+          "sha256": "8a6b754cd3bc5ad2bf0d0308bbd9c1b7f6b4ecdd915982ffedf50ed18fed4a46"
+        },
+        {
+          "path": "preview.png",
+          "size": 104227,
+          "sha256": "915ee9f4f600142bec9df9dbb7ac2227650fd44476e46dbc0b94e8bb29bf1ce4"
+        },
+        {
+          "path": "theme.css",
+          "size": 5401,
+          "sha256": "a155f1273233bfd23847758a5cb985074d28169602f3bb7eb521c92c42551f3c"
+        },
+        {
+          "path": "theme.json",
+          "size": 2208,
+          "sha256": "129689cb52c81a8862832eb00f0b0da0905f39972ff1d297c0564e32599c59d5"
+        }
+      ]
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The 32-bit grey console, or the black of its boot screen, with the four button shapes' colours. Chakra Petch type (OFL; its licence heads theme.css).",
+      "preview": "themes/playstation/preview.png",
+      "files": [
+        {
+          "path": "fonts/chakra-petch-400.woff2",
+          "size": 9756,
+          "sha256": "7d75be85dd1627e27ec151e9a3701e661bc4f8c2a93611bdd92f3a05d6bbd942"
+        },
+        {
+          "path": "fonts/chakra-petch-700.woff2",
+          "size": 9900,
+          "sha256": "ce5095dc1cb200aaa939e38067a0677018d10e9f26ec38cdcf1557ac524fc775"
+        },
+        {
+          "path": "preview.png",
+          "size": 84870,
+          "sha256": "05d2e3828a9b0fb828be24a9b79920928f72ee49297a6a197c7714fa58340f4d"
+        },
+        {
+          "path": "theme.css",
+          "size": 6774,
+          "sha256": "6dfde73f546ce83fa08c169a6c449392787e4f593b560ff0ff7b115a17b178a9"
+        },
+        {
+          "path": "theme.json",
+          "size": 1740,
+          "sha256": "8df61e6c9b778d97ee3383af05a37457e4a93c1b7d9b9be21e39522c193aeed3"
+        }
+      ]
+    },
+    {
+      "id": "playstation-2",
+      "name": "PlayStation 2",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The deep blue of the console's own menus and its blue light, or the silver of the slim one. Exo 2 type (OFL; its licence heads theme.css).",
+      "preview": "themes/playstation-2/preview.png",
+      "files": [
+        {
+          "path": "fonts/exo-2-400.woff2",
+          "size": 16720,
+          "sha256": "49c9cd329161f5c5feed3ae80a788199f2dce127c00828e027a61261cf602491"
+        },
+        {
+          "path": "fonts/exo-2-700.woff2",
+          "size": 17220,
+          "sha256": "96c87b1597aed754e0ad45970883774e851a390788e7fba7b3f49f8d1f6e5a6b"
+        },
+        {
+          "path": "preview.png",
+          "size": 124482,
+          "sha256": "ed59631c1405aa0e97118da78b0a3c779288361b66b92666a159cdf90c992bb3"
+        },
+        {
+          "path": "theme.css",
+          "size": 5631,
+          "sha256": "d1e5dca78bf5d5e36c90514016f36053f211bf4f47e288ee2d99cf8b4b4cdf9f"
+        },
+        {
+          "path": "theme.json",
+          "size": 1700,
+          "sha256": "65225cbc154e9813b4ddf102368a1d31606672466516288d2d9a2fffebfb5f5b"
+        }
+      ]
+    },
+    {
+      "id": "snes-pal",
+      "name": "SNES (UK)",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The UK and European Super Nintendo (and Japan's Super Famicom): light grey with the four coloured buttons; or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
+      "preview": "themes/snes-pal/preview.png",
       "files": [
         {
           "path": "fonts/pixelify-sans-400.woff2",
@@ -161,18 +308,56 @@
         },
         {
           "path": "preview.png",
-          "size": 73072,
-          "sha256": "faf87f4541be7c7420689c0b86a18edcdc03d0dee923b5b1a6f8873d72598bf0"
+          "size": 66534,
+          "sha256": "dc0fb80843180848f24602d2686927eb909b6cffcc48bf420061843eb53c535f"
         },
         {
           "path": "theme.css",
-          "size": 5826,
-          "sha256": "e362f037b6c3e1552d3ea6331894fcf9002a303bdd29ee780be9ca5174184ff8"
+          "size": 5899,
+          "sha256": "2bf9c1dfc11f6474e4e717168bfa570a81e73c9c06ac137945e8574b8e6ee537"
         },
         {
           "path": "theme.json",
-          "size": 2186,
-          "sha256": "fede3c0e4150b394146360d68fd1e9bf8b0042a2917ed41bb40ac844799676a3"
+          "size": 1768,
+          "sha256": "4577bd441a776f8f9bd76b77fb08b972b4278280a578562cb2d238f3ddc0e0c2"
+        }
+      ]
+    },
+    {
+      "id": "snes-us",
+      "name": "SNES (US)",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The North American Super NES: a grey shell, purple and lavender buttons, rounded corners; or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
+      "preview": "themes/snes-us/preview.png",
+      "files": [
+        {
+          "path": "fonts/pixelify-sans-400.woff2",
+          "size": 7692,
+          "sha256": "d830612ac9131788ebae754b9268f83f7c1d3ffa9bc0f9a5514207a8283fe71e"
+        },
+        {
+          "path": "fonts/pixelify-sans-700.woff2",
+          "size": 7904,
+          "sha256": "c836cfa5c0e9d62ea9b890e0418d52a6004149090a521cd198a8c09f5d5ab893"
+        },
+        {
+          "path": "preview.png",
+          "size": 72574,
+          "sha256": "ec83fa646839f3a7be6f985363b0eaa3e46251500e5233fd3f80e0512b6d9ca2"
+        },
+        {
+          "path": "theme.css",
+          "size": 5893,
+          "sha256": "43354162ef833f96ddcbd216ea6df1c32f2d3a6fe9ce3277795685f7a1fe3284"
+        },
+        {
+          "path": "theme.json",
+          "size": 1750,
+          "sha256": "a7e4780bf090263a0c6dbd019765cb4fac142eb6555bc6362e8ebfd169a38f35"
         }
       ]
     }
