@@ -43,7 +43,8 @@ it installs anything.
   they are.
 - **Only what you may share.** No console makers' logos, trademarks or box
   art; pictures and fonts only under a licence that allows it, named in the
-  theme's description or a `LICENSES.md` beside it.
+  theme's description or in a comment heading `theme.css` (romforge
+  refuses any other file in a theme, so a `LICENSES.md` can't go there).
 - **Data, not code.** No scripts: romforge refuses `@import`, links out of
   the theme's folder, URLs to other sites, and CSS escapes.
 - **At most 256 KB of CSS and 8 MB in all.**

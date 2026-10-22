@@ -1,0 +1,55 @@
+{
+  "api": 1,
+  "id": "nes",
+  "name": "NES",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The 8-bit front-loader: two greys, black and red, square pixel cards and Press Start 2P type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": ["list"],
+  "fallback": "title",
+  "schemes": {
+    "front-loader": {
+      "--fs-bg": "#c6c6c6",
+      "--fs-bg-2": "#dadada",
+      "--fs-panel": "#e4e4e4",
+      "--fs-text": "#1b1b1b",
+      "--fs-muted": "#4a4a4a",
+      "--fs-accent": "#b8141b",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#1b1b1b",
+      "--fs-focus": "#b8141b",
+      "--fs-shadow": "#1b1b1b",
+      "--fs-radius": "0",
+      "--fs-font": "\"Press Start 2P\", ui-monospace, monospace",
+      "--fs-title-font": "\"Press Start 2P\", ui-monospace, monospace"
+    },
+    "control-deck": {
+      "--fs-bg": "#1e1e1e",
+      "--fs-bg-2": "#353535",
+      "--fs-panel": "#2a2a2a",
+      "--fs-text": "#ececec",
+      "--fs-muted": "#ababab",
+      "--fs-accent": "#e8302a",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#ababab",
+      "--fs-focus": "#e8302a",
+      "--fs-shadow": "#000000",
+      "--fs-radius": "0",
+      "--fs-font": "\"Press Start 2P\", ui-monospace, monospace",
+      "--fs-title-font": "\"Press Start 2P\", ui-monospace, monospace"
+    }
+  },
+  "options": [
+    {
+      "key": "ridges",
+      "label": "Ridged band",
+      "choices": [
+        { "value": "on", "label": "On" },
+        { "value": "off", "label": "Off" }
+      ]
+    }
+  ]
+}

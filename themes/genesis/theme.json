@@ -1,0 +1,55 @@
+{
+  "api": 1,
+  "id": "genesis",
+  "name": "Genesis",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "16-bit black with red (or the gold of Japan's boxes), chrome titles and Orbitron's wide arcade type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": ["list"],
+  "fallback": "title",
+  "schemes": {
+    "black": {
+      "--fs-bg": "#0a0a0c",
+      "--fs-bg-2": "#25252b",
+      "--fs-panel": "#16161a",
+      "--fs-text": "#f2f2f4",
+      "--fs-muted": "#a2a2ad",
+      "--fs-accent": "#e3261d",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#e3261d",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "Orbitron, system-ui, sans-serif",
+      "--fs-title-font": "Orbitron, system-ui, sans-serif"
+    },
+    "gold": {
+      "--fs-bg": "#0a0a0c",
+      "--fs-bg-2": "#26221a",
+      "--fs-panel": "#16161a",
+      "--fs-text": "#f4f1ea",
+      "--fs-muted": "#b0a994",
+      "--fs-accent": "#d9a92e",
+      "--fs-accent-text": "#0a0a0c",
+      "--fs-line": "#d9a92e2e",
+      "--fs-focus": "#d9a92e",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "Orbitron, system-ui, sans-serif",
+      "--fs-title-font": "Orbitron, system-ui, sans-serif"
+    }
+  },
+  "options": [
+    {
+      "key": "chrome",
+      "label": "Chrome titles",
+      "choices": [
+        { "value": "on", "label": "On" },
+        { "value": "off", "label": "Off" }
+      ]
+    }
+  ]
+}

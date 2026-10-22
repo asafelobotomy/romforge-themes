@@ -1,10 +1,7 @@
-/* Neon Arcade (CC0): a synthwave night. A sun-and-grid horizon behind
-   everything, neon glow on the focus, optional CRT scanlines. */
+/* Neon Arcade (CC0): a synthwave night. A low glow behind everything,
+   neon glow on the focus, optional CRT scanlines. */
 :scope {
-  background:
-    linear-gradient(180deg, transparent 62%, color-mix(in srgb, var(--fs-accent) 22%, transparent) 62.3%, transparent 63%),
-    repeating-linear-gradient(90deg, transparent 0 7.5vw, color-mix(in srgb, var(--fs-accent) 14%, transparent) 7.5vw 7.6vw),
-    radial-gradient(ellipse at 50% 64%, var(--fs-bg-2), var(--fs-bg) 70%);
+  background: radial-gradient(ellipse at 50% 64%, var(--fs-bg-2), var(--fs-bg) 70%);
 }
 :scope[data-fs-opt-glow="on"] [data-fs-card][data-fs-selected],
 :scope[data-fs-opt-glow="on"] [data-fs-row][data-fs-selected] {

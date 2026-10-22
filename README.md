@@ -11,8 +11,16 @@ theme goes in.
 | Theme | By | Licence |
 |---|---|---|
 | [Neon Arcade](themes/neon-arcade) | romforge | CC0-1.0 |
+| [NES](themes/nes) | romforge | CC0-1.0, font OFL-1.1 |
+| [SNES](themes/snes) | romforge | CC0-1.0, font OFL-1.1 |
+| [Genesis](themes/genesis) | romforge | CC0-1.0, font OFL-1.1 |
+| [Game Boy Pocket](themes/game-boy-pocket) | romforge | CC0-1.0, font OFL-1.1 |
 
-![Neon Arcade](themes/neon-arcade/preview.png)
+| | |
+|---|---|
+| ![Neon Arcade](themes/neon-arcade/preview.png) | ![NES](themes/nes/preview.png) |
+| ![SNES](themes/snes/preview.png) | ![Genesis](themes/genesis/preview.png) |
+| ![Game Boy Pocket](themes/game-boy-pocket/preview.png) | |
 
 **To add yours,** see [CONTRIBUTING.md](CONTRIBUTING.md).
 

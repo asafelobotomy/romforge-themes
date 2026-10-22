@@ -2,9 +2,85 @@
   "api": 1,
   "themes": [
     {
+      "id": "game-boy-pocket",
+      "name": "Game Boy Pocket",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The Pocket's grey-green screen or its silver shell with magenta buttons, square cards and Silkscreen pixel type (OFL; its licence heads theme.css).",
+      "preview": "themes/game-boy-pocket/preview.png",
+      "files": [
+        {
+          "path": "fonts/silkscreen-400.woff2",
+          "size": 8404,
+          "sha256": "e6c72ea4702249202bcdd79d3343057e4e25ef1f04e3fcffd8602ab53b40b4cc"
+        },
+        {
+          "path": "fonts/silkscreen-700.woff2",
+          "size": 7524,
+          "sha256": "5741b7f01a127f40ed70281fa2f686e8fc2cfe241930a120e4d1a1cebe78f995"
+        },
+        {
+          "path": "preview.png",
+          "size": 60920,
+          "sha256": "e7f8b4196ea56572886d76f69557d42d63b86abd3cac1564a571b0e69bb9ba97"
+        },
+        {
+          "path": "theme.css",
+          "size": 6043,
+          "sha256": "28dc5dddddc4d9d8c67ff2b7d7fb1969b2f2c004df3f837763445f483164b478"
+        },
+        {
+          "path": "theme.json",
+          "size": 1678,
+          "sha256": "4eea0f9c07a59cfe49367d4029f09c10fbc7bd677a2f57a189f130cf74d86dd2"
+        }
+      ]
+    },
+    {
+      "id": "genesis",
+      "name": "Genesis",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "16-bit black with red (or the gold of Japan's boxes), chrome titles and Orbitron's wide arcade type (OFL; its licence heads theme.css).",
+      "preview": "themes/genesis/preview.png",
+      "files": [
+        {
+          "path": "fonts/orbitron-500.woff2",
+          "size": 6596,
+          "sha256": "c13360768270c65d6c97701b100a88993885671dfdfd2a400aa58ea0195381ea"
+        },
+        {
+          "path": "fonts/orbitron-800.woff2",
+          "size": 6740,
+          "sha256": "e2591ec1ac280053b8dc647b0a7d074578a2769a96ff454fb28e4c63257436cc"
+        },
+        {
+          "path": "preview.png",
+          "size": 90547,
+          "sha256": "ff53b21350a8e96566a78ecf88135fc62dd1880b1a4db151b8f433052fe82809"
+        },
+        {
+          "path": "theme.css",
+          "size": 5963,
+          "sha256": "55dc0d996a54229de05d05738e5c65370a8a5c3a948209849d4af84fa91a7a23"
+        },
+        {
+          "path": "theme.json",
+          "size": 1619,
+          "sha256": "4d6d019f71ee7d821fb85f91151a1bcb1d2834232953905581508910e6e9a8ea"
+        }
+      ]
+    },
+    {
       "id": "neon-arcade",
       "name": "Neon Arcade",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0",
@@ -14,18 +90,89 @@
       "files": [
         {
           "path": "preview.png",
-          "size": 147101,
-          "sha256": "5920b07790ce11e28b84c6e481ec02f4c4a4a8d58ef74ad580ee6321537c06a4"
+          "size": 154165,
+          "sha256": "56c92e84c69b86a2715582269ffea3a784101447512a0e82f965c0baaea10f6b"
         },
         {
           "path": "theme.css",
-          "size": 1044,
-          "sha256": "80acb1c3f2e215369406cecc9e5c3526572bbd4e2f218292e5c24b05ef2d6edf"
+          "size": 778,
+          "sha256": "944c83549e8414d31953ef5022335c3ad75bc3246adba32be2afdf289578010a"
         },
         {
           "path": "theme.json",
           "size": 1495,
-          "sha256": "1fb132d7952f21cc7a99d563db0259d1a3ae1700d5e021c76cac5e19d0b7ab7b"
+          "sha256": "18a904e63f4848fda22f72a7cab086c35411b6c7bff801ef1d8b1ea1d33f54dc"
+        }
+      ]
+    },
+    {
+      "id": "nes",
+      "name": "NES",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The 8-bit front-loader: two greys, black and red, square pixel cards and Press Start 2P type (OFL; its licence heads theme.css).",
+      "preview": "themes/nes/preview.png",
+      "files": [
+        {
+          "path": "fonts/press-start-2p-400.woff2",
+          "size": 12512,
+          "sha256": "afec86997fdaf54af1f59358fa2c1e2a0f1d04146edad18e5cd141d0384a7548"
+        },
+        {
+          "path": "preview.png",
+          "size": 59278,
+          "sha256": "7d90f6520e8c1e229952bc6f09b32aee4e47e23ca608f8f4e693d42ae704c098"
+        },
+        {
+          "path": "theme.css",
+          "size": 5835,
+          "sha256": "4eb9b47d5bd650580d94f673763965de1cb665f3acc1784e1105ebcb0666005b"
+        },
+        {
+          "path": "theme.json",
+          "size": 1649,
+          "sha256": "52b2bf322569e05c1bda5f46e00d630ace466e57aa137c31c2e88418ab130940"
+        }
+      ]
+    },
+    {
+      "id": "snes",
+      "name": "SNES",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The 16-bit console's soft greys and rounded corners: purple buttons (USA), four coloured ones (PAL), or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
+      "preview": "themes/snes/preview.png",
+      "files": [
+        {
+          "path": "fonts/pixelify-sans-400.woff2",
+          "size": 7692,
+          "sha256": "d830612ac9131788ebae754b9268f83f7c1d3ffa9bc0f9a5514207a8283fe71e"
+        },
+        {
+          "path": "fonts/pixelify-sans-700.woff2",
+          "size": 7904,
+          "sha256": "c836cfa5c0e9d62ea9b890e0418d52a6004149090a521cd198a8c09f5d5ab893"
+        },
+        {
+          "path": "preview.png",
+          "size": 73072,
+          "sha256": "faf87f4541be7c7420689c0b86a18edcdc03d0dee923b5b1a6f8873d72598bf0"
+        },
+        {
+          "path": "theme.css",
+          "size": 5826,
+          "sha256": "e362f037b6c3e1552d3ea6331894fcf9002a303bdd29ee780be9ca5174184ff8"
+        },
+        {
+          "path": "theme.json",
+          "size": 2186,
+          "sha256": "fede3c0e4150b394146360d68fd1e9bf8b0042a2917ed41bb40ac844799676a3"
         }
       ]
     }

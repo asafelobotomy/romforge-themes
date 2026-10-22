@@ -1,0 +1,55 @@
+{
+  "api": 1,
+  "id": "game-boy-pocket",
+  "name": "Game Boy Pocket",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The Pocket's grey-green screen or its silver shell with magenta buttons, square cards and Silkscreen pixel type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": ["list"],
+  "fallback": "title",
+  "schemes": {
+    "screen": {
+      "--fs-bg": "#c4cfa1",
+      "--fs-bg-2": "#d4ddb6",
+      "--fs-panel": "#b3be8f",
+      "--fs-text": "#1f1f1f",
+      "--fs-muted": "#3f4532",
+      "--fs-accent": "#3f4532",
+      "--fs-accent-text": "#d4ddb6",
+      "--fs-line": "#3f453266",
+      "--fs-focus": "#1f1f1f",
+      "--fs-shadow": "#3f4532",
+      "--fs-radius": "0",
+      "--fs-font": "Silkscreen, ui-monospace, monospace",
+      "--fs-title-font": "Silkscreen, ui-monospace, monospace"
+    },
+    "silver": {
+      "--fs-bg": "#b8bbc1",
+      "--fs-bg-2": "#cfd2d7",
+      "--fs-panel": "#c9ccd2",
+      "--fs-text": "#1c1e23",
+      "--fs-muted": "#454950",
+      "--fs-accent": "#8b1d50",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#1c1e2333",
+      "--fs-focus": "#8b1d50",
+      "--fs-shadow": "#454950",
+      "--fs-radius": "0",
+      "--fs-font": "Silkscreen, ui-monospace, monospace",
+      "--fs-title-font": "Silkscreen, ui-monospace, monospace"
+    }
+  },
+  "options": [
+    {
+      "key": "art",
+      "label": "Box art",
+      "choices": [
+        { "value": "tinted", "label": "In the screen's shades" },
+        { "value": "colour", "label": "In colour" }
+      ]
+    }
+  ]
+}
