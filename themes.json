@@ -2,6 +2,77 @@
   "api": 1,
   "themes": [
     {
+      "id": "dreamcast",
+      "name": "Dreamcast",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The white console with the swirl in orange (Japan and America) or blue (Europe), or a night scheme. Comfortaa type (OFL; its licence heads theme.css).",
+      "preview": "themes/dreamcast/preview.png",
+      "files": [
+        {
+          "path": "fonts/comfortaa-400.woff2",
+          "size": 13576,
+          "sha256": "4e86e54d50483956c59a01b5b671b6807fa7235d94e5716cffc5cf390544b1bc"
+        },
+        {
+          "path": "fonts/comfortaa-700.woff2",
+          "size": 13416,
+          "sha256": "ed9f328cf6aaa4c14dfb464d215e8a0d8d56b675a72fb601b819e95a1cb4e45d"
+        },
+        {
+          "path": "preview.png",
+          "size": 122825,
+          "sha256": "87c3985ec8b57491dbf3aade3dfda108741d42b96298127f7436e8ff597e7db0"
+        },
+        {
+          "path": "theme.css",
+          "size": 5467,
+          "sha256": "fdd5289f962f2c1bbf70434f2ba01ddbe80402b49af02ff122532266c6365143"
+        },
+        {
+          "path": "theme.json",
+          "size": 1976,
+          "sha256": "6d6b388089805803a46d24785f7e9432ed12cd11dbd272eb490a19a26c6897a9"
+        }
+      ]
+    },
+    {
+      "id": "game-boy-advance",
+      "name": "Game Boy Advance",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The wide handheld's see-through Indigo or Glacier, with a bright screen-yellow focus on Indigo. DotGothic16 type (OFL; its licence heads theme.css).",
+      "preview": "themes/game-boy-advance/preview.png",
+      "files": [
+        {
+          "path": "fonts/dotgothic16-400.woff2",
+          "size": 10508,
+          "sha256": "d29abf817463fdba7e9e87fc954cfa2b60ea6534e8a79c46e858a0dc5aa6a6f6"
+        },
+        {
+          "path": "preview.png",
+          "size": 140219,
+          "sha256": "6ab4cf24bfe0522e43522ae65ae5d6ebaa1b45784441b377330e058219be5ccb"
+        },
+        {
+          "path": "theme.css",
+          "size": 5225,
+          "sha256": "7a888940fb42d70a6fa8abe02dc67e8610dc59add9e2f68aa02886aa14142728"
+        },
+        {
+          "path": "theme.json",
+          "size": 1504,
+          "sha256": "d8648fbe0d20f9614b91c24732483d91c64219b1821bb4e2a141acc658601017"
+        }
+      ]
+    },
+    {
       "id": "game-boy-pocket",
       "name": "Game Boy Pocket",
       "version": "1.0.0",
@@ -24,13 +95,13 @@
         },
         {
           "path": "preview.png",
-          "size": 61273,
-          "sha256": "adfeea6b33c3d1ec509372d236e84337341c812611939d3ad0b74a4ddc14d712"
+          "size": 61441,
+          "sha256": "fbaf08cfbd97fd47d575a54aee6b6b608863997741b35a0fdab7b049c5491cfc"
         },
         {
           "path": "theme.css",
-          "size": 6057,
-          "sha256": "8fa1625eed2c5a01e5879014a92ceefbf41cde20f8a1aff304b17d63b937db1b"
+          "size": 6177,
+          "sha256": "dd0858b73f88efb69d8d94627b4fb4f9ee572546bcee72477ac10da3ef879f31"
         },
         {
           "path": "theme.json",
@@ -100,18 +171,51 @@
         },
         {
           "path": "preview.png",
-          "size": 90547,
-          "sha256": "ff53b21350a8e96566a78ecf88135fc62dd1880b1a4db151b8f433052fe82809"
+          "size": 90536,
+          "sha256": "acc3455b01f7d0a2b04807887d015c005bf9b8aa59058c40a1483ada82744107"
         },
         {
           "path": "theme.css",
-          "size": 5963,
-          "sha256": "55dc0d996a54229de05d05738e5c65370a8a5c3a948209849d4af84fa91a7a23"
+          "size": 6137,
+          "sha256": "84178a9d9a8245b29ea04fafcb561662066f32795635480dfa4fc207aecc4df9"
         },
         {
           "path": "theme.json",
           "size": 1619,
           "sha256": "4d6d019f71ee7d821fb85f91151a1bcb1d2834232953905581508910e6e9a8ea"
+        }
+      ]
+    },
+    {
+      "id": "master-system",
+      "name": "Master System",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "8-bit black with the console's red stripe, or the Master System II's blue; heavy italic type. Racing Sans One type (OFL; its licence heads theme.css).",
+      "preview": "themes/master-system/preview.png",
+      "files": [
+        {
+          "path": "fonts/racing-sans-one-400.woff2",
+          "size": 21804,
+          "sha256": "2ff92c8abe7a35962922c54da215d68690f8502463698b1b595bed597b63e3ff"
+        },
+        {
+          "path": "preview.png",
+          "size": 93505,
+          "sha256": "88612a8c6fd666349664c5f4fe4865a20ea013624a11ac87da2cf744cc04870a"
+        },
+        {
+          "path": "theme.css",
+          "size": 5496,
+          "sha256": "eae42b11c11f3f153a03ae8fc0654843127a1beb565a773360ba08d5f547313a"
+        },
+        {
+          "path": "theme.json",
+          "size": 1741,
+          "sha256": "a19cb3e159ebff851561a91924d9df4901c27a6fd5e2253714c743fe18ec8349"
         }
       ]
     },
@@ -172,7 +276,7 @@
         {
           "path": "theme.json",
           "size": 1649,
-          "sha256": "52b2bf322569e05c1bda5f46e00d630ace466e57aa137c31c2e88418ab130940"
+          "sha256": "e00a1dd5ea192c95dc874437db469530761186f7c002e37526dfa4ca47d9ac10"
         }
       ]
     },
@@ -282,6 +386,39 @@
           "path": "theme.json",
           "size": 1700,
           "sha256": "65225cbc154e9813b4ddf102368a1d31606672466516288d2d9a2fffebfb5f5b"
+        }
+      ]
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "Black with the logo's blue glow, or the white Japanese console; wide, spaced type. Michroma type (OFL; its licence heads theme.css).",
+      "preview": "themes/saturn/preview.png",
+      "files": [
+        {
+          "path": "fonts/michroma-400.woff2",
+          "size": 17908,
+          "sha256": "754fdb31c9906e82cf9c0ecb1d0b528073818fc2c418a39932c83a34cca027b6"
+        },
+        {
+          "path": "preview.png",
+          "size": 123058,
+          "sha256": "3aa60ea7cca16ff55416f03942cdf8aa97d5ee66ca2dbcf77333eb3f40e4081d"
+        },
+        {
+          "path": "theme.css",
+          "size": 5389,
+          "sha256": "0dd8c12e133616ea3252b73edcd5b97971c4115aca02210df768d5996172d67c"
+        },
+        {
+          "path": "theme.json",
+          "size": 1690,
+          "sha256": "f67cb265ce79a93cdf4e1f3d9cb738ede854746b708d3b3527f01739dccc3d22"
         }
       ]
     },

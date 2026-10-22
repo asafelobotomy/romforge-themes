@@ -1,0 +1,48 @@
+{
+  "api": 1,
+  "id": "game-boy-advance",
+  "name": "Game Boy Advance",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The wide handheld's see-through Indigo or Glacier, with a bright screen-yellow focus on Indigo. DotGothic16 type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "indigo": {
+      "--fs-bg": "#231d5c",
+      "--fs-bg-2": "#3f3596",
+      "--fs-panel": "#2d2672",
+      "--fs-text": "#f1efff",
+      "--fs-muted": "#b9b2e8",
+      "--fs-accent": "#b8b0ff",
+      "--fs-accent-text": "#231d5c",
+      "--fs-line": "#f1efff26",
+      "--fs-focus": "#ffd23f",
+      "--fs-shadow": "#00000088",
+      "--fs-radius": "1vh",
+      "--fs-font": "\"DotGothic16\", system-ui, sans-serif",
+      "--fs-title-font": "\"DotGothic16\", system-ui, sans-serif"
+    },
+    "glacier": {
+      "--fs-bg": "#cfe3ef",
+      "--fs-bg-2": "#e6f1f8",
+      "--fs-panel": "#eef6fb",
+      "--fs-text": "#13283a",
+      "--fs-muted": "#3d5568",
+      "--fs-accent": "#1f6fb2",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#13283a26",
+      "--fs-focus": "#1f6fb2",
+      "--fs-shadow": "#13283a33",
+      "--fs-radius": "1vh",
+      "--fs-font": "\"DotGothic16\", system-ui, sans-serif",
+      "--fs-title-font": "\"DotGothic16\", system-ui, sans-serif"
+    }
+  },
+  "options": []
+}

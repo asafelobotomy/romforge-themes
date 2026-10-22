@@ -1,0 +1,63 @@
+{
+  "api": 1,
+  "id": "saturn",
+  "name": "Saturn",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "Black with the logo's blue glow, or the white Japanese console; wide, spaced type. Michroma type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "black": {
+      "--fs-bg": "#0c0c10",
+      "--fs-bg-2": "#1c2a55",
+      "--fs-panel": "#16161c",
+      "--fs-text": "#eef0f6",
+      "--fs-muted": "#9fa6b8",
+      "--fs-accent": "#4a86e0",
+      "--fs-accent-text": "#0c0c10",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#6aa3ff",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"Michroma\", system-ui, sans-serif",
+      "--fs-title-font": "\"Michroma\", system-ui, sans-serif"
+    },
+    "white": {
+      "--fs-bg": "#d9dadc",
+      "--fs-bg-2": "#ececee",
+      "--fs-panel": "#ececee",
+      "--fs-text": "#1a1b20",
+      "--fs-muted": "#4a4c55",
+      "--fs-accent": "#2a5bb0",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#1a1b2026",
+      "--fs-focus": "#2a5bb0",
+      "--fs-shadow": "#1a1b2033",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"Michroma\", system-ui, sans-serif",
+      "--fs-title-font": "\"Michroma\", system-ui, sans-serif"
+    }
+  },
+  "options": [
+    {
+      "key": "logo",
+      "label": "Blue title",
+      "choices": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ]
+    }
+  ]
+}

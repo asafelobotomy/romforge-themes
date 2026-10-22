@@ -1,0 +1,63 @@
+{
+  "api": 1,
+  "id": "dreamcast",
+  "name": "Dreamcast",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The white console with the swirl in orange (Japan and America) or blue (Europe), or a night scheme. Comfortaa type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "orange": {
+      "--fs-bg": "#ecebe7",
+      "--fs-bg-2": "#ffffff",
+      "--fs-panel": "#fbfbf9",
+      "--fs-text": "#1e1e1e",
+      "--fs-muted": "#4f4f4f",
+      "--fs-accent": "#c4461a",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#1e1e1e1f",
+      "--fs-focus": "#c4461a",
+      "--fs-shadow": "#1e1e1e26",
+      "--fs-radius": "1.4vh",
+      "--fs-font": "\"Comfortaa\", system-ui, sans-serif",
+      "--fs-title-font": "\"Comfortaa\", system-ui, sans-serif"
+    },
+    "blue": {
+      "--fs-bg": "#ecebe7",
+      "--fs-bg-2": "#ffffff",
+      "--fs-panel": "#fbfbf9",
+      "--fs-text": "#1e1e1e",
+      "--fs-muted": "#4f4f4f",
+      "--fs-accent": "#1c5fb8",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#1e1e1e1f",
+      "--fs-focus": "#1c5fb8",
+      "--fs-shadow": "#1e1e1e26",
+      "--fs-radius": "1.4vh",
+      "--fs-font": "\"Comfortaa\", system-ui, sans-serif",
+      "--fs-title-font": "\"Comfortaa\", system-ui, sans-serif"
+    },
+    "night": {
+      "--fs-bg": "#141519",
+      "--fs-bg-2": "#2a2c33",
+      "--fs-panel": "#1d1f24",
+      "--fs-text": "#f0f0f2",
+      "--fs-muted": "#a6a8b0",
+      "--fs-accent": "#ff7a3d",
+      "--fs-accent-text": "#141519",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#ff7a3d",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "1.4vh",
+      "--fs-font": "\"Comfortaa\", system-ui, sans-serif",
+      "--fs-title-font": "\"Comfortaa\", system-ui, sans-serif"
+    }
+  },
+  "options": []
+}

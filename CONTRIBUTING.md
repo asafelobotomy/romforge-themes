@@ -30,11 +30,21 @@ ROMFORGE_THEMES_INDEX=~/romforge-themes romforge-app
 
 ```bash
 romforge-cli themes index .      # writes themes.json, checking every theme
+python3 tools/audit.py           # readable colours, unused fonts and options…
 ```
 
 Commit `themes.json` with your theme. The check workflow runs
-`romforge-cli themes index . --check`: the same checks romforge makes before
-it installs anything.
+`romforge-cli themes index . --check` (the same checks romforge makes before
+it installs anything) and `tools/audit.py`, which asks for:
+
+- **Readable colours** in every scheme: `--fs-text` and `--fs-muted` at
+  4.5:1 on `--fs-bg`, `--fs-bg-2` and `--fs-panel`; `--fs-accent-text` at
+  4.5:1 on `--fs-accent`; `--fs-focus` at 3:1 on `--fs-bg` and `--fs-panel`.
+- **Nothing unused:** every font is in an `url()`, every option does something.
+- **Card rules that apply:** romforge's own card style outranks a plain
+  `[data-fs-card]` or `[data-fs-row]` rule's border, outline, padding or
+  background; write `:scope [data-fs-card]`.
+- **A 1280×720 preview**, when there is one.
 
 ## The rules
 

@@ -1,0 +1,63 @@
+{
+  "api": 1,
+  "id": "master-system",
+  "name": "Master System",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "8-bit black with the console's red stripe, or the Master System II's blue; heavy italic type. Racing Sans One type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "black": {
+      "--fs-bg": "#0b0b0b",
+      "--fs-bg-2": "#2a0d0d",
+      "--fs-panel": "#171717",
+      "--fs-text": "#f4f4f4",
+      "--fs-muted": "#a8a8a8",
+      "--fs-accent": "#d7141a",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#e8262c",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0",
+      "--fs-font": "\"Racing Sans One\", system-ui, sans-serif",
+      "--fs-title-font": "\"Racing Sans One\", system-ui, sans-serif"
+    },
+    "ii": {
+      "--fs-bg": "#0b0b0d",
+      "--fs-bg-2": "#0f2147",
+      "--fs-panel": "#16171b",
+      "--fs-text": "#f2f4f8",
+      "--fs-muted": "#a5abb8",
+      "--fs-accent": "#2b6fd0",
+      "--fs-accent-text": "#ffffff",
+      "--fs-line": "#ffffff1f",
+      "--fs-focus": "#4c8ef0",
+      "--fs-shadow": "#000000aa",
+      "--fs-radius": "0",
+      "--fs-font": "\"Racing Sans One\", system-ui, sans-serif",
+      "--fs-title-font": "\"Racing Sans One\", system-ui, sans-serif"
+    }
+  },
+  "options": [
+    {
+      "key": "stripe",
+      "label": "Red stripe",
+      "choices": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ]
+    }
+  ]
+}

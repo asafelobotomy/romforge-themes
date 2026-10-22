@@ -121,8 +121,12 @@
 }
 [data-fs-card][data-fs-selected],
 [data-fs-row][data-fs-selected] {
-  outline: 0.4vh solid var(--fs-focus);
   box-shadow: 0 0 0 0.8vh color-mix(in srgb, var(--fs-focus) 25%, transparent);
+}
+/* A thinner ring than romforge's own, while the games have the focus. */
+:scope [data-fs-focus] [data-fs-card][data-fs-selected],
+:scope [data-fs-focus] [data-fs-row][data-fs-selected] {
+  outline-width: 0.4vh;
 }
 /* Brushed chrome, like the console's lettering: on the big title only,
    where it stays readable. */
