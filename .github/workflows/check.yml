@@ -1,6 +1,7 @@
 # Every theme checked as romforge checks it before installing, and
 # themes.json up to date (`romforge-cli themes index . --check`), and
-# tools/audit.py's checks (colours, unused files, outranked card rules).
+# tools/audit.py's checks (colours, unused files, outranked card rules),
+# and the README's themes up to date (tools/readme.py --check).
 name: Check themes
 on: [push, pull_request]
 jobs:
@@ -24,3 +25,4 @@ jobs:
         run: cargo install --git https://github.com/asafelobotomy/romforge --rev ${{ steps.romforge.outputs.sha }} romforge-cli --locked
       - run: romforge-cli themes index . --check
       - run: python3 tools/audit.py .
+      - run: python3 tools/readme.py . --check

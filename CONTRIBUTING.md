@@ -31,9 +31,10 @@ ROMFORGE_THEMES_INDEX=~/romforge-themes romforge-app
 ```bash
 romforge-cli themes index .      # writes themes.json, checking every theme
 python3 tools/audit.py           # readable colours, unused fonts and options…
+python3 tools/readme.py          # adds your theme to the README (under Community)
 ```
 
-Commit `themes.json` with your theme. The check workflow runs
+Commit `themes.json` and `README.md` with your theme. The check workflow runs
 `romforge-cli themes index . --check` (the same checks romforge makes before
 it installs anything) and `tools/audit.py`, which asks for:
 
