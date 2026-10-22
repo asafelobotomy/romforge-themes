@@ -1,0 +1,24 @@
+# Every theme checked as romforge checks it before installing, and
+# themes.json up to date (`romforge-cli themes index . --check`).
+name: Check themes
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: romforge's main
+        id: romforge
+        run: echo "sha=$(git ls-remote https://github.com/asafelobotomy/romforge refs/heads/main | cut -f1)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        id: cli
+        with:
+          path: ~/.cargo/bin/romforge-cli
+          key: romforge-cli-${{ steps.romforge.outputs.sha }}
+      - if: steps.cli.outputs.cache-hit != 'true'
+        run: sudo apt-get update && sudo apt-get install -y libudev-dev
+      - if: steps.cli.outputs.cache-hit != 'true'
+        uses: dtolnay/rust-toolchain@stable
+      - if: steps.cli.outputs.cache-hit != 'true'
+        run: cargo install --git https://github.com/asafelobotomy/romforge --rev ${{ steps.romforge.outputs.sha }} romforge-cli --locked
+      - run: romforge-cli themes index . --check

@@ -1,0 +1,59 @@
+{
+  "api": 1,
+  "id": "neon-arcade",
+  "name": "Neon Arcade",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "description": "Synthwave night: deep purple, hot pink and a cyan glow, with optional scanlines.",
+  "layout": "grid",
+  "layouts": ["list"],
+  "fallback": "title",
+  "schemes": {
+    "midnight": {
+      "--fs-bg": "#120726",
+      "--fs-bg-2": "#3a0f5c",
+      "--fs-panel": "#22103e",
+      "--fs-text": "#f6e9ff",
+      "--fs-muted": "#b79bd6",
+      "--fs-accent": "#ff3c9e",
+      "--fs-accent-text": "#14051f",
+      "--fs-line": "#ff3c9e40",
+      "--fs-focus": "#36f1ff",
+      "--fs-radius": "1.2vh",
+      "--fs-shadow": "#ff3c9e66"
+    },
+    "sunset": {
+      "--fs-bg": "#2b0f3f",
+      "--fs-bg-2": "#ff6f61",
+      "--fs-panel": "#3d1656",
+      "--fs-text": "#fff3e8",
+      "--fs-muted": "#f3c1d9",
+      "--fs-accent": "#ffd166",
+      "--fs-accent-text": "#2b0f3f",
+      "--fs-line": "#ffd16640",
+      "--fs-focus": "#ffd166",
+      "--fs-radius": "1.2vh",
+      "--fs-shadow": "#ff6f6166"
+    }
+  },
+  "options": [
+    {
+      "key": "glow",
+      "label": "Glow",
+      "choices": [
+        { "value": "on", "label": "On" },
+        { "value": "off", "label": "Off" }
+      ]
+    },
+    {
+      "key": "scanlines",
+      "label": "Scanlines",
+      "choices": [
+        { "value": "off", "label": "Off" },
+        { "value": "on", "label": "On" }
+      ]
+    }
+  ]
+}

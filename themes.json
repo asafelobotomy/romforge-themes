@@ -1,0 +1,33 @@
+{
+  "api": 1,
+  "themes": [
+    {
+      "id": "neon-arcade",
+      "name": "Neon Arcade",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "description": "Synthwave night: deep purple, hot pink and a cyan glow, with optional scanlines.",
+      "preview": "themes/neon-arcade/preview.png",
+      "files": [
+        {
+          "path": "preview.png",
+          "size": 147101,
+          "sha256": "5920b07790ce11e28b84c6e481ec02f4c4a4a8d58ef74ad580ee6321537c06a4"
+        },
+        {
+          "path": "theme.css",
+          "size": 1044,
+          "sha256": "80acb1c3f2e215369406cecc9e5c3526572bbd4e2f218292e5c24b05ef2d6edf"
+        },
+        {
+          "path": "theme.json",
+          "size": 1495,
+          "sha256": "1fb132d7952f21cc7a99d563db0259d1a3ae1700d5e021c76cac5e19d0b7ab7b"
+        }
+      ]
+    }
+  ]
+}
