@@ -2,7 +2,7 @@
   "api": 1,
   "id": "snes-pal",
   "name": "SNES (UK)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "romforge",
   "licence": "CC0-1.0 AND OFL-1.1",
   "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
@@ -10,7 +10,12 @@
   "layout": "grid",
   "layouts": [
     "list",
-    "cover-flow"
+    "cover-flow",
+    "wheel",
+    "shelves",
+    "hero",
+    "hero-bottom",
+    "bookshelf"
   ],
   "fallback": "title",
   "schemes": {

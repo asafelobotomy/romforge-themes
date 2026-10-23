@@ -2,13 +2,13 @@
   "api": 1,
   "id": "nes",
   "name": "NES",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "romforge",
   "licence": "CC0-1.0 AND OFL-1.1",
   "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
   "description": "The 8-bit front-loader: two greys, black and red, square pixel cards and Press Start 2P type (OFL; its licence heads theme.css).",
   "layout": "grid",
-  "layouts": ["list", "cover-flow"],
+  "layouts": ["list", "cover-flow", "wheel", "shelves", "hero", "hero-bottom", "bookshelf"],
   "fallback": "title",
   "schemes": {
     "front-loader": {
