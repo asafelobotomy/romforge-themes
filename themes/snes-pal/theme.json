@@ -2,14 +2,15 @@
   "api": 1,
   "id": "snes-pal",
   "name": "SNES (UK)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "romforge",
   "licence": "CC0-1.0 AND OFL-1.1",
   "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
   "description": "The UK and European Super Nintendo (and Japan's Super Famicom): light grey with the four coloured buttons; or a night scheme. Pixelify Sans type (OFL; its licence heads theme.css).",
   "layout": "grid",
   "layouts": [
-    "list"
+    "list",
+    "cover-flow"
   ],
   "fallback": "title",
   "schemes": {

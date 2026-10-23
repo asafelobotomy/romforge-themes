@@ -2,14 +2,15 @@
   "api": 1,
   "id": "playstation-2",
   "name": "PlayStation 2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "romforge",
   "licence": "CC0-1.0 AND OFL-1.1",
   "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
   "description": "The deep blue of the console's own menus and its blue light, or the silver of the slim one. Exo 2 type (OFL; its licence heads theme.css).",
   "layout": "grid",
   "layouts": [
-    "list"
+    "list",
+    "cover-flow"
   ],
   "fallback": "title",
   "schemes": {

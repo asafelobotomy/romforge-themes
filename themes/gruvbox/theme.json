@@ -9,7 +9,8 @@
   "description": "The retro groove palette, dark or light at each of its three contrasts: warm browns and cream, yellow and orange. JetBrains Mono type (OFL; its licence heads theme.css).",
   "layout": "grid",
   "layouts": [
-    "list"
+    "list",
+    "cover-flow"
   ],
   "fallback": "title",
   "schemes": {

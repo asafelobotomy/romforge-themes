@@ -2,13 +2,13 @@
   "api": 1,
   "id": "neon-arcade",
   "name": "Neon Arcade",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "romforge",
   "licence": "CC0-1.0",
   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "description": "Synthwave night: deep purple, hot pink and a cyan glow, with optional scanlines.",
   "layout": "grid",
-  "layouts": ["list"],
+  "layouts": ["list", "cover-flow"],
   "fallback": "title",
   "schemes": {
     "midnight": {

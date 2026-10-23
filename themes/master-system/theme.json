@@ -2,14 +2,15 @@
   "api": 1,
   "id": "master-system",
   "name": "Master System",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "romforge",
   "licence": "CC0-1.0 AND OFL-1.1",
   "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
   "description": "8-bit black with the console's red stripe, or the Master System II's blue; heavy italic type. Racing Sans One type (OFL; its licence heads theme.css).",
   "layout": "grid",
   "layouts": [
-    "list"
+    "list",
+    "cover-flow"
   ],
   "fallback": "title",
   "schemes": {

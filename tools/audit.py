@@ -86,7 +86,7 @@ def audit(d, readme, problems):
     # The house style.
     if list(m) != HOUSE_KEYS:
         say("theme.json's keys aren't in the house order")
-    if (m["layout"], m["layouts"], m["fallback"]) != ("grid", ["list"], "title"):
+    if (m["layout"], m["layouts"], m["fallback"]) != ("grid", ["list", "cover-flow"], "title"):
         say("layout, layouts or fallback differ from the other themes")
     if not preview.exists():
         say("no preview.png")
