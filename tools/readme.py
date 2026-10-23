@@ -16,7 +16,7 @@ ROOT = Path(args[0] if args else ".")
 START, END = "<!-- themes:start -->", "<!-- themes:end -->"
 # The themes made here, by maker and then age.
 GROUPS = [
-    ("Originals", ["neon-arcade"]),
+    ("Originals", ["neon-arcade", "gruvbox"]),
     ("Nintendo", ["nes", "snes-us", "snes-pal", "nintendo-64", "gamecube", "game-boy-pocket", "game-boy-advance"]),
     ("Sega", ["master-system", "genesis", "saturn", "dreamcast"]),
     ("Sony", ["playstation", "playstation-2"]),

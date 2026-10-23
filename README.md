@@ -12,6 +12,7 @@ theme goes in.
 | Theme | | Font |
 |---|---|---|
 | [Neon Arcade](#neon-arcade) | Originals | System |
+| [Gruvbox](#gruvbox) | Originals | JetBrains Mono |
 | [NES](#nes) | Nintendo | Press Start 2P |
 | [SNES (US)](#snes-us) | Nintendo | Pixelify Sans |
 | [SNES (UK)](#snes-uk) | Nintendo | Pixelify Sans |
@@ -36,6 +37,15 @@ Synthwave night: deep purple, hot pink and a cyan glow, with optional scanlines.
 
 **Colour schemes:** Midnight, Sunset · **Options:** Glow, Scanlines · **Font:** System  
 **Licence:** CC0-1.0 · **By** romforge · **Version** 1.1.0 · [Files](themes/neon-arcade)
+
+### Gruvbox
+
+![Gruvbox](themes/gruvbox/preview.png)
+
+The retro groove palette, dark or light at each of its three contrasts: warm browns and cream, yellow and orange.
+
+**Colour schemes:** Dark, Dark hard, Dark soft, Light, Light hard, Light soft · **Options:** Accent rule, Card corners · **Font:** JetBrains Mono  
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.0.0 · [Files](themes/gruvbox)
 
 ## Nintendo
 

@@ -187,6 +187,44 @@
       ]
     },
     {
+      "id": "gruvbox",
+      "name": "Gruvbox",
+      "version": "1.0.0",
+      "api": 1,
+      "author": "romforge",
+      "licence": "CC0-1.0 AND OFL-1.1",
+      "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "description": "The retro groove palette, dark or light at each of its three contrasts: warm browns and cream, yellow and orange. JetBrains Mono type (OFL; its licence heads theme.css).",
+      "preview": "themes/gruvbox/preview.png",
+      "files": [
+        {
+          "path": "fonts/jetbrains-mono-400.woff2",
+          "size": 21168,
+          "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+        },
+        {
+          "path": "fonts/jetbrains-mono-700.woff2",
+          "size": 21908,
+          "sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8"
+        },
+        {
+          "path": "preview.png",
+          "size": 57556,
+          "sha256": "0b8aaec8bc89072bae34bd90a7610452c7c7a1800511406b479e55db085b27de"
+        },
+        {
+          "path": "theme.css",
+          "size": 5837,
+          "sha256": "faff6b70883f8635c457966b19963b812a8ead770a4846735ef9a4c76201ae58"
+        },
+        {
+          "path": "theme.json",
+          "size": 4321,
+          "sha256": "655129516ad52c7571780ed33b9220469174150b7118465b41a567a461856c5c"
+        }
+      ]
+    },
+    {
       "id": "master-system",
       "name": "Master System",
       "version": "1.0.0",

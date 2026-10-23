@@ -1,0 +1,150 @@
+{
+  "api": 1,
+  "id": "gruvbox",
+  "name": "Gruvbox",
+  "version": "1.0.0",
+  "author": "romforge",
+  "licence": "CC0-1.0 AND OFL-1.1",
+  "licence_url": "https://openfontlicense.org/open-font-license-official-text/",
+  "description": "The retro groove palette, dark or light at each of its three contrasts: warm browns and cream, yellow and orange. JetBrains Mono type (OFL; its licence heads theme.css).",
+  "layout": "grid",
+  "layouts": [
+    "list"
+  ],
+  "fallback": "title",
+  "schemes": {
+    "dark": {
+      "--fs-bg": "#282828",
+      "--fs-bg-2": "#3c3836",
+      "--fs-panel": "#32302f",
+      "--fs-text": "#ebdbb2",
+      "--fs-muted": "#bdae93",
+      "--fs-accent": "#fabd2f",
+      "--fs-accent-text": "#282828",
+      "--fs-line": "#ebdbb21f",
+      "--fs-focus": "#fe8019",
+      "--fs-shadow": "#00000080",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"JetBrains Mono\", ui-monospace, monospace",
+      "--fs-title-font": "\"JetBrains Mono\", ui-monospace, monospace"
+    },
+    "dark-hard": {
+      "--fs-bg": "#1d2021",
+      "--fs-bg-2": "#32302f",
+      "--fs-panel": "#282828",
+      "--fs-text": "#ebdbb2",
+      "--fs-muted": "#bdae93",
+      "--fs-accent": "#fabd2f",
+      "--fs-accent-text": "#1d2021",
+      "--fs-line": "#ebdbb21f",
+      "--fs-focus": "#fe8019",
+      "--fs-shadow": "#00000080",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"JetBrains Mono\", ui-monospace, monospace",
+      "--fs-title-font": "\"JetBrains Mono\", ui-monospace, monospace"
+    },
+    "dark-soft": {
+      "--fs-bg": "#32302f",
+      "--fs-bg-2": "#504945",
+      "--fs-panel": "#3c3836",
+      "--fs-text": "#ebdbb2",
+      "--fs-muted": "#d5c4a1",
+      "--fs-accent": "#fabd2f",
+      "--fs-accent-text": "#32302f",
+      "--fs-line": "#ebdbb21f",
+      "--fs-focus": "#fe8019",
+      "--fs-shadow": "#00000080",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"JetBrains Mono\", ui-monospace, monospace",
+      "--fs-title-font": "\"JetBrains Mono\", ui-monospace, monospace"
+    },
+    "light": {
+      "--fs-bg": "#fbf1c7",
+      "--fs-bg-2": "#f2e5bc",
+      "--fs-panel": "#f9f5d7",
+      "--fs-text": "#3c3836",
+      "--fs-muted": "#665c54",
+      "--fs-accent": "#af3a03",
+      "--fs-accent-text": "#fbf1c7",
+      "--fs-line": "#3c383626",
+      "--fs-focus": "#b57614",
+      "--fs-shadow": "#3c383626",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"JetBrains Mono\", ui-monospace, monospace",
+      "--fs-title-font": "\"JetBrains Mono\", ui-monospace, monospace"
+    },
+    "light-hard": {
+      "--fs-bg": "#f9f5d7",
+      "--fs-bg-2": "#fbf1c7",
+      "--fs-panel": "#fbf1c7",
+      "--fs-text": "#3c3836",
+      "--fs-muted": "#665c54",
+      "--fs-accent": "#af3a03",
+      "--fs-accent-text": "#f9f5d7",
+      "--fs-line": "#3c383626",
+      "--fs-focus": "#b57614",
+      "--fs-shadow": "#3c383626",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"JetBrains Mono\", ui-monospace, monospace",
+      "--fs-title-font": "\"JetBrains Mono\", ui-monospace, monospace"
+    },
+    "light-soft": {
+      "--fs-bg": "#f2e5bc",
+      "--fs-bg-2": "#ebdbb2",
+      "--fs-panel": "#fbf1c7",
+      "--fs-text": "#3c3836",
+      "--fs-muted": "#665c54",
+      "--fs-accent": "#af3a03",
+      "--fs-accent-text": "#f2e5bc",
+      "--fs-line": "#3c383626",
+      "--fs-focus": "#b57614",
+      "--fs-shadow": "#3c383626",
+      "--fs-radius": "0.4vh",
+      "--fs-font": "\"JetBrains Mono\", ui-monospace, monospace",
+      "--fs-title-font": "\"JetBrains Mono\", ui-monospace, monospace"
+    }
+  },
+  "options": [
+    {
+      "key": "rule",
+      "label": "Accent rule",
+      "choices": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ]
+    },
+    {
+      "key": "corners",
+      "label": "Card corners",
+      "choices": [
+        {
+          "value": "soft",
+          "label": "Soft",
+          "vars": {
+            "--fs-radius": "0.4vh"
+          }
+        },
+        {
+          "value": "square",
+          "label": "Square",
+          "vars": {
+            "--fs-radius": "0"
+          }
+        },
+        {
+          "value": "round",
+          "label": "Round",
+          "vars": {
+            "--fs-radius": "1.2vh"
+          }
+        }
+      ]
+    }
+  ]
+}
