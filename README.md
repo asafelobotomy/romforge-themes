@@ -171,7 +171,31 @@ The deep blue of the console's own menus and its blue light, or the silver of th
 **Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/playstation-2)
 <!-- themes:end -->
 
+## Layouts
+
+Every theme here offers all of romforge's layouts; pick one in **Start →
+Theme → Layout** (or Settings → Display). Shown in Neon Arcade with test box
+art, fanart and logos.
+
+| | |
+|---|---|
+| **Grid**<br>Rows of box art, the details beside them.<br>![Grid](docs/layouts/grid.png) | **List**<br>Titles in a column, the box art large beside them.<br>![List](docs/layouts/list.png) |
+| **Cover flow**<br>One row of box art, the middle cover facing you, the others turned away.<br>![Cover flow](docs/layouts/cover-flow.png) | **Wheel**<br>The games' logos turning down the right, the fanart behind.<br>![Wheel](docs/layouts/wheel.png) |
+| **Shelves**<br>Rows of played lately, favourites and every game.<br>![Shelves](docs/layouts/shelves.png) | **Hero row**<br>Small tiles along the top, the fanart and details below.<br>![Hero row](docs/layouts/hero.png) |
+| **Hero row, bottom**<br>The same with the tiles along the bottom.<br>![Hero row, bottom](docs/layouts/hero-bottom.png) | **Bookshelf**<br>The boxes on wooden shelves, spines out, at their real sizes; Accept takes one off the shelf in 3D.<br>![Bookshelf](docs/layouts/bookshelf.png) |
+| **Bookshelf, details beside**<br>Shelves of 15 with the details on the left (or the right), its favourites and recently played shelves on.<br>![Bookshelf, details beside](docs/layouts/bookshelf-beside.png) |  |
+
+## Built into romforge
+
+These come with romforge itself (MIT), so they are always there and never
+listed under Get themes; each offers every layout too.
+
+| | |
+|---|---|
+| **SNES UK**<br>The UK (PAL) SNES: console greys and its four face-button colours, light or dark with the system. Options: card corners, background.<br>![SNES UK](docs/built-in/snes-uk.png) | **Famicom**<br>Cream and deep red with gold details, square cards. Option: gold stripe.<br>![Famicom](docs/built-in/famicom.png) |
+| **Game Boy**<br>The original's four greens, square cards, a thick focus and monospace type. Option: box art.<br>![Game Boy](docs/built-in/game-boy.png) | **Mega Drive**<br>Near-black and glossy, a red accent, bold condensed type; a list by default. Option: gloss.<br>![Mega Drive](docs/built-in/mega-drive.png) |
+
 **To add yours,** see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The files of this repository (the README, the guide, the workflow, tools/) are MIT;
+The files of this repository (the README and its pictures in docs/, the guide, the workflow, tools/) are MIT;
 each theme keeps the licence its `theme.json` names.
