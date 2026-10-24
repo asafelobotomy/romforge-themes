@@ -36,7 +36,7 @@ theme goes in.
 Synthwave night: deep purple, hot pink and a cyan glow, with optional scanlines.
 
 **Colour schemes:** Midnight, Sunset · **Options:** Glow, Scanlines · **Font:** System  
-**Licence:** CC0-1.0 · **By** romforge · **Version** 1.3.0 · [Files](themes/neon-arcade)
+**Licence:** CC0-1.0 · **By** romforge · **Version** 1.3.1 · [Files](themes/neon-arcade)
 
 ### Gruvbox
 
@@ -56,7 +56,7 @@ The retro groove palette, dark or light at each of its three contrasts: warm bro
 The 8-bit front-loader: two greys, black and red, square pixel cards and Press Start 2P type.
 
 **Colour schemes:** Front loader, Control deck · **Options:** Ridged band · **Font:** Press Start 2P  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/nes)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/nes)
 
 ### SNES (US)
 
@@ -65,7 +65,7 @@ The 8-bit front-loader: two greys, black and red, square pixel cards and Press S
 The North American Super NES: a grey shell, purple and lavender buttons, rounded corners; or a night scheme.
 
 **Colour schemes:** USA, Night · **Options:** Button colours · **Font:** Pixelify Sans  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/snes-us)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/snes-us)
 
 ### SNES (UK)
 
@@ -74,7 +74,7 @@ The North American Super NES: a grey shell, purple and lavender buttons, rounded
 The UK and European Super Nintendo (and Japan's Super Famicom): light grey with the four coloured buttons; or a night scheme.
 
 **Colour schemes:** PAL, Night · **Options:** Button colours · **Font:** Pixelify Sans  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/snes-pal)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/snes-pal)
 
 ### Nintendo 64
 
@@ -92,7 +92,7 @@ Charcoal, or the see-through Jungle Green and Grape, with the logo's four colour
 The little cube's indigo, its spice orange or jet black, with rounded cards.
 
 **Colour schemes:** Indigo, Spice, Jet · **Options:** none · **Font:** Fredoka  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/gamecube)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/gamecube)
 
 ### Game Boy Pocket
 
@@ -101,7 +101,7 @@ The little cube's indigo, its spice orange or jet black, with rounded cards.
 The Pocket's grey-green screen or its silver shell with magenta buttons, square cards and Silkscreen pixel type.
 
 **Colour schemes:** Screen, Silver · **Options:** Box art · **Font:** Silkscreen  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/game-boy-pocket)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/game-boy-pocket)
 
 ### Game Boy Advance
 
@@ -110,7 +110,7 @@ The Pocket's grey-green screen or its silver shell with magenta buttons, square 
 The wide handheld's see-through Indigo or Glacier, with a bright screen-yellow focus on Indigo.
 
 **Colour schemes:** Indigo, Glacier · **Options:** none · **Font:** DotGothic16  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/game-boy-advance)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/game-boy-advance)
 
 ## Sega
 
@@ -121,7 +121,7 @@ The wide handheld's see-through Indigo or Glacier, with a bright screen-yellow f
 8-bit black with the console's red stripe, or the Master System II's blue; heavy italic type.
 
 **Colour schemes:** Black, II · **Options:** Red stripe · **Font:** Racing Sans One  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/master-system)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/master-system)
 
 ### Genesis
 
@@ -130,7 +130,7 @@ The wide handheld's see-through Indigo or Glacier, with a bright screen-yellow f
 16-bit black with red (or the gold of Japan's boxes), chrome titles and Orbitron's wide arcade type.
 
 **Colour schemes:** Black, Gold · **Options:** Chrome titles · **Font:** Orbitron  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/genesis)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/genesis)
 
 ### Saturn
 
@@ -148,7 +148,7 @@ Black with the logo's blue glow, or the white Japanese console; wide, spaced typ
 The white console with the swirl in orange (Japan and America) or blue (Europe), or a night scheme.
 
 **Colour schemes:** Orange, Blue, Night · **Options:** none · **Font:** Comfortaa  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/dreamcast)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/dreamcast)
 
 ## Sony
 
@@ -159,7 +159,7 @@ The white console with the swirl in orange (Japan and America) or blue (Europe),
 The 32-bit grey console, or the black of its boot screen, with the four button shapes' colours.
 
 **Colour schemes:** Console, Boot · **Options:** Button colours · **Font:** Chakra Petch  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/playstation)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/playstation)
 
 ### PlayStation 2
 
@@ -168,7 +168,7 @@ The 32-bit grey console, or the black of its boot screen, with the four button s
 The deep blue of the console's own menus and its blue light, or the silver of the slim one.
 
 **Colour schemes:** Browser, Silver · **Options:** Blue glow · **Font:** Exo 2  
-**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.0 · [Files](themes/playstation-2)
+**Licence:** CC0-1.0, its font OFL-1.1 · **By** romforge · **Version** 1.2.1 · [Files](themes/playstation-2)
 <!-- themes:end -->
 
 **To add yours,** see [CONTRIBUTING.md](CONTRIBUTING.md).

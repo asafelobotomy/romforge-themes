@@ -3,7 +3,7 @@
 :scope {
   background: radial-gradient(ellipse at 50% 64%, var(--fs-bg-2), var(--fs-bg) 70%);
 }
-:scope[data-fs-opt-glow="on"] [data-fs-card][data-fs-selected],
+:scope[data-fs-opt-glow="on"]:not([data-fs-layout="wheel"], [data-fs-layout="bookshelf"]) [data-fs-card][data-fs-selected],
 :scope[data-fs-opt-glow="on"] [data-fs-row][data-fs-selected] {
   box-shadow: 0 0 2vh var(--fs-focus), 0 0 5vh color-mix(in srgb, var(--fs-accent) 60%, transparent);
 }

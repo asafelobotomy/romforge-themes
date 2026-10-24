@@ -4,7 +4,7 @@
     {
       "id": "dreamcast",
       "name": "Dreamcast",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -29,20 +29,20 @@
         },
         {
           "path": "theme.css",
-          "size": 5467,
-          "sha256": "fdd5289f962f2c1bbf70434f2ba01ddbe80402b49af02ff122532266c6365143"
+          "size": 5534,
+          "sha256": "d76cfc74c2e71a021e52bb2fe5af31504a06b8fb05e010c330dd36c6d27decd0"
         },
         {
           "path": "theme.json",
           "size": 2070,
-          "sha256": "f8b8021a522ffd13937d4eba2717be456f1ffbb368bf8cd2dba103d24934ab5d"
+          "sha256": "0bae6280c01557ff5378a4fa246f51561a0afff9d620ad0d9757e0d8f88fbde3"
         }
       ]
     },
     {
       "id": "game-boy-advance",
       "name": "Game Boy Advance",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -62,20 +62,20 @@
         },
         {
           "path": "theme.css",
-          "size": 5225,
-          "sha256": "7a888940fb42d70a6fa8abe02dc67e8610dc59add9e2f68aa02886aa14142728"
+          "size": 5285,
+          "sha256": "10146e9e0c62c1e293e1957cfaa093497e1356cf271042350156e388dd8424f8"
         },
         {
           "path": "theme.json",
           "size": 1598,
-          "sha256": "1f9d414f243f3109d4dc41cd936488a31d6b45e1e82840cf6de5f391f73b3528"
+          "sha256": "68384d386d76765ed35693cc73b202091698d5ff896e43433835de8ba6d8d9a6"
         }
       ]
     },
     {
       "id": "game-boy-pocket",
       "name": "Game Boy Pocket",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -100,20 +100,20 @@
         },
         {
           "path": "theme.css",
-          "size": 6177,
-          "sha256": "dd0858b73f88efb69d8d94627b4fb4f9ee572546bcee72477ac10da3ef879f31"
+          "size": 6297,
+          "sha256": "299b49d67a62beca4cd00f31ecb06d6245b34c22fb38d7c27f88847737f9971b"
         },
         {
           "path": "theme.json",
           "size": 1748,
-          "sha256": "39a70aefc1d92856458fa6d129dd188f05be7ca2fb6275e27f387acc6b3e34c2"
+          "sha256": "c6da4dfd6e65329a0b45c6ebee4d5a260a9efe54c5fdf39d2b640d13dd586539"
         }
       ]
     },
     {
       "id": "gamecube",
       "name": "GameCube",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -138,20 +138,20 @@
         },
         {
           "path": "theme.css",
-          "size": 5408,
-          "sha256": "a3717c936664ecdfd4ad575bfede5f2a2990c0bf2dfe89d7fde920960ad33a5b"
+          "size": 5475,
+          "sha256": "3723018a3ecb64fa925a63f2d410f6320a9a0ed913dfb409f71cddb980329362"
         },
         {
           "path": "theme.json",
           "size": 2024,
-          "sha256": "beb68484eff48db9e2c81896308cce4d045c55b88e4ebe09de0cf669237150f0"
+          "sha256": "c7d9503ec64aba210d6a388b8ec19683f3761fe4ba717058a333b863f14f6125"
         }
       ]
     },
     {
       "id": "genesis",
       "name": "Genesis",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -176,13 +176,13 @@
         },
         {
           "path": "theme.css",
-          "size": 6137,
-          "sha256": "84178a9d9a8245b29ea04fafcb561662066f32795635480dfa4fc207aecc4df9"
+          "size": 6264,
+          "sha256": "1e60be79b6e23ce96a1f5f7e90077c9f815cda9e2797ef64b72c6020f0228a93"
         },
         {
           "path": "theme.json",
           "size": 1689,
-          "sha256": "8e204a3d1ec56704985aa28702855082af7a49bfd52ad69e7c7695b87d8aec36"
+          "sha256": "e3ca443ea5a650f74b635589e05d4579f6e4f29631da88c2a11fb2f4ae77e137"
         }
       ]
     },
@@ -227,7 +227,7 @@
     {
       "id": "master-system",
       "name": "Master System",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -247,20 +247,20 @@
         },
         {
           "path": "theme.css",
-          "size": 5496,
-          "sha256": "eae42b11c11f3f153a03ae8fc0654843127a1beb565a773360ba08d5f547313a"
+          "size": 5556,
+          "sha256": "f690764ef646b30e1efe7c56a4d41fd4daea8566326dcd638183663667e13ddf"
         },
         {
           "path": "theme.json",
           "size": 1835,
-          "sha256": "3c0703d0df0bd48ab219c15324d6ba7778f9c19b59f258d9255a073228b2f61e"
+          "sha256": "74603cd9c2a36bbef6cce2e4b6368b0e9ec05564c8cb50dedce9801283911ee6"
         }
       ]
     },
     {
       "id": "neon-arcade",
       "name": "Neon Arcade",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0",
@@ -275,20 +275,20 @@
         },
         {
           "path": "theme.css",
-          "size": 778,
-          "sha256": "944c83549e8414d31953ef5022335c3ad75bc3246adba32be2afdf289578010a"
+          "size": 838,
+          "sha256": "cedaae8e97a7f24e09bc35b514ba0e6516ef133bc98196b4eafba579a767156c"
         },
         {
           "path": "theme.json",
           "size": 1565,
-          "sha256": "1fe2862b86cdc6afcdaac7fc4d64b8fa30ab6d7040dee2aebcfda08a5226a552"
+          "sha256": "4c34bedc90d1cf8242b34335ecf6d012fe1becaabfa6aec155c70510a14465e4"
         }
       ]
     },
     {
       "id": "nes",
       "name": "NES",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -308,13 +308,13 @@
         },
         {
           "path": "theme.css",
-          "size": 5863,
-          "sha256": "17bb0cdc1bc7bce76b0d3953a884da3d30bc507c346d87e4ba1f2110a0b25987"
+          "size": 5983,
+          "sha256": "25eaf0e602b90afe8097815aa0bfb3fb8f863ac483295dc08fef3baa62b1576c"
         },
         {
           "path": "theme.json",
           "size": 1719,
-          "sha256": "520183185f316e3b0cb6a72bc1f320462a2ac65c59ea571e5f0d60e4f519afe9"
+          "sha256": "a1664d9f49b934b0728ec8f2ed2177c6fdd4d521b37b62c0deab6ce83ce2a4fe"
         }
       ]
     },
@@ -354,7 +354,7 @@
     {
       "id": "playstation",
       "name": "PlayStation",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -379,20 +379,20 @@
         },
         {
           "path": "theme.css",
-          "size": 6774,
-          "sha256": "6dfde73f546ce83fa08c169a6c449392787e4f593b560ff0ff7b115a17b178a9"
+          "size": 6834,
+          "sha256": "fdfea009c5051956fb51db4188f6280d6a5278e47495c29633fe2d57e37ed297"
         },
         {
           "path": "theme.json",
           "size": 1834,
-          "sha256": "eed638e32a42ad6029a5431aeb2b698248cc46441d11f2484101f3cbf9f97a52"
+          "sha256": "430c4cde3d0a55b23da228587c3341509f8a1f6626c1f8ddd66bce4a7dc76a75"
         }
       ]
     },
     {
       "id": "playstation-2",
       "name": "PlayStation 2",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -417,13 +417,13 @@
         },
         {
           "path": "theme.css",
-          "size": 5631,
-          "sha256": "d1e5dca78bf5d5e36c90514016f36053f211bf4f47e288ee2d99cf8b4b4cdf9f"
+          "size": 5691,
+          "sha256": "8685ba3e007e41f552564bcfd5df040c39b5f778d59a380bac944b333aa54bb0"
         },
         {
           "path": "theme.json",
           "size": 1794,
-          "sha256": "593b8830d95159843079beb1eddb472d0e882f307cb7521672e5b8b340e85b0f"
+          "sha256": "da4a4444d7dad1925b1158be7b580dfa11a4c8b5319c4ebdefe97eba1f361dea"
         }
       ]
     },
@@ -463,7 +463,7 @@
     {
       "id": "snes-pal",
       "name": "SNES (UK)",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -488,20 +488,20 @@
         },
         {
           "path": "theme.css",
-          "size": 5899,
-          "sha256": "2bf9c1dfc11f6474e4e717168bfa570a81e73c9c06ac137945e8574b8e6ee537"
+          "size": 6033,
+          "sha256": "4d7c8cd9877bee0715e59854bff26c5a954536a2422efbca8e36995684c4be03"
         },
         {
           "path": "theme.json",
           "size": 1862,
-          "sha256": "fb1e9694dadf40db5f679fd29f7bb01e05bf19760473b61ac2ba4f7e9a70909b"
+          "sha256": "07151c3db0a3f0674ff428664176eaf92661b74788fe358c615c3d40dac28615"
         }
       ]
     },
     {
       "id": "snes-us",
       "name": "SNES (US)",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "api": 1,
       "author": "romforge",
       "licence": "CC0-1.0 AND OFL-1.1",
@@ -526,13 +526,13 @@
         },
         {
           "path": "theme.css",
-          "size": 5893,
-          "sha256": "43354162ef833f96ddcbd216ea6df1c32f2d3a6fe9ce3277795685f7a1fe3284"
+          "size": 6027,
+          "sha256": "97a7babdc4e6a6d9797e68ea11f1520cf4c53df63a6f4198f960d00e0f84922a"
         },
         {
           "path": "theme.json",
           "size": 1844,
-          "sha256": "8581cb3aece3b6f732209093a90fa03ab06ce7e929594c31ea2360b7921d4ba7"
+          "sha256": "801e0dc4295d5f089bfdeed7bb79cbd7d8d20c04922da8c3e1d0659f87e31ca8"
         }
       ]
     }

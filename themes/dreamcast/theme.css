@@ -117,7 +117,7 @@
 [data-fs-info] [data-fs-title] {
   color: var(--fs-accent);
 }
-[data-fs-card],
+:scope:not([data-fs-layout="wheel"], [data-fs-layout="bookshelf"]) [data-fs-card],
 [data-fs-row] {
   box-shadow: 0 0.6vh 1.4vh var(--fs-shadow);
 }

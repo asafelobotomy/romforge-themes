@@ -105,7 +105,7 @@
 :scope {
   background: radial-gradient(ellipse at 50% 40%, var(--fs-bg-2), var(--fs-bg) 75%);
 }
-:scope [data-fs-card],
+:scope:not([data-fs-layout="wheel"], [data-fs-layout="bookshelf"]) [data-fs-card],
 :scope [data-fs-row] {
   border: 0.2vh solid var(--fs-line);
 }

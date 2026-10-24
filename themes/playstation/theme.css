@@ -115,7 +115,7 @@
   font-weight: 700;
   letter-spacing: 0.02em;
 }
-:scope [data-fs-card],
+:scope:not([data-fs-layout="wheel"], [data-fs-layout="bookshelf"]) [data-fs-card],
 :scope [data-fs-row] {
   border: 0.2vh solid var(--fs-line);
 }

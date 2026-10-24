@@ -118,13 +118,13 @@
 [data-fs-title] {
   font-weight: 700;
 }
-:scope [data-fs-card],
+:scope:not([data-fs-layout="wheel"], [data-fs-layout="bookshelf"]) [data-fs-card],
 :scope [data-fs-row] {
   border: 0.3vh solid var(--fs-line);
   box-shadow: 0.5vh 0.5vh 0 var(--fs-shadow);
 }
 /* A thicker ring than romforge's own, while the games have the focus. */
-:scope [data-fs-focus] [data-fs-card][data-fs-selected],
+:scope:not([data-fs-layout="wheel"], [data-fs-layout="bookshelf"]) [data-fs-focus] [data-fs-card][data-fs-selected],
 :scope [data-fs-focus] [data-fs-row][data-fs-selected] {
   outline: 0.6vh solid var(--fs-focus);
   outline-offset: 0.3vh;

@@ -45,6 +45,17 @@ def opaque(value):
     return v[:7] if re.fullmatch(r"#[0-9a-f]{6}(ff)?", v) else None
 
 
+def top_level(selectors):
+    """A rule's selectors: split at its commas, not those inside :not(…) or :is(…)."""
+    out, depth, start = [], 0, 0
+    for i, ch in enumerate(selectors):
+        depth += {"(": 1, ")": -1}.get(ch, 0)
+        if ch == "," and depth == 0:
+            out.append(selectors[start:i])
+            start = i + 1
+    return out + [selectors[start:]]
+
+
 def audit(d, readme, problems):
     id = d.name
     say = lambda msg: problems.append(f"{id}: {msg}")
@@ -71,7 +82,7 @@ def audit(d, readme, problems):
             say(f"url({u}) is missing")
     for selectors, block in re.findall(r"([^{}]+)\{([^{}]*)\}", body):
         props = {x.split(":")[0].strip() for x in block.split(";") if ":" in x}
-        for sel in (" ".join(s.split()) for s in selectors.split(",")):
+        for sel in (" ".join(s.split()) for s in top_level(selectors)):
             if re.search(r"\[data-fs-(card|row)\]", sel) and not sel.startswith(":scope"):
                 lost = sorted(props & OUTRANKED)
                 if lost:
